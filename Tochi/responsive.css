@@ -1,0 +1,476 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("./Assets/Fonts/Roboto-Regular.ttf");
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  width: 100%;
+  overflow-x: hidden;
+  background: black;
+  font-family: "Roboto";
+}
+
+@media screen and (min-width: 497px) and (max-width: 787px) {
+  .banner {
+    height: 130vh;
+  }
+  .email-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%;
+  }
+  .first-content input {
+    width: 80%;
+    height: 50px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+  }
+  .first-content button {
+    width: 40%;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    margin-top: 20px;
+    height: 45px;
+    font-size: 17px;
+  }
+
+  .part1 {
+    flex-direction: column;
+    justify-content: center;
+    padding: 5rem 1rem;
+    text-align: center;
+  }
+  .part1 .talk {
+    width: 90%;
+  }
+  .part1 .talk h1 {
+    font-size: 40px;
+  }
+  .part1 .talk p {
+    font-size: 22px;
+  }
+  .part1 .img {
+    width: 80%;
+  }
+  .part2 {
+    flex-direction: column-reverse;
+    justify-content: center;
+    padding: 5rem 1rem;
+    text-align: center;
+  }
+  .part2 .talk {
+    width: 90%;
+  }
+  .part2 .talk h1 {
+    font-size: 40px;
+  }
+  .part2 .talk p {
+    font-size: 22px;
+  }
+  .part2 .img {
+    width: 80%;
+  }
+
+  .list {
+    width: 80%;
+  }
+  .list h1 {
+    font-size: 2.6rem;
+    text-align: center;
+    padding: 0rem 0 0rem 0;
+  }
+  .tittle {
+    font-size: 1.6rem;
+  }
+
+  .banner3 .box {
+    margin: 1rem;
+  }
+
+  .banner3 .box .heading h3 {
+    font-size: 23px;
+    padding: 0 40px 0 40px;
+    text-align: center;
+  }
+  .banner3 .box .search {
+    flex-direction: column;
+  }
+  .banner3 .box .search input {
+    font-size: 13px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-radius: 3px;
+    margin: 0px;
+  }
+  .banner3 .box .search button {
+    width: 35%;
+    height: 45px;
+    margin-top: 15px;
+    border-radius: 3px;
+    font-size: 16px;
+  }
+
+  .foooter .one {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    width: 50%;
+  }
+  .foooter .one li {
+    padding: 6px 0;
+  }
+  .foooter .one li a {
+    font-size: 12px;
+    color: rgb(65, 63, 63)155, 151, 151);
+    text-decoration: none;
+  }
+  .foooter .one li a:hover {
+    text-decoration: 1px solid underline;
+  }
+}
+
+@media screen and (max-width: 496px) {
+  .logo img {
+    width: 40%;
+  }
+  .banner {
+    height: 130vh;
+  }
+  .navigation {
+    width: 100%;
+  }
+  .navigation a {
+    margin-right: 10px;
+    padding: 7px 10px;
+  }
+  .first-content {
+    padding-top: 50px;
+  }
+  .first-content h1 {
+    font-size: 35px;
+    line-height: 37px;
+    margin-top: 30px;
+    letter-spacing: 2px;
+  }
+  .first-content h2 {
+    font-size: 19px;
+    font-weight: 400;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    padding: 0, 20pxs;
+  }
+  .hidden-lg {
+    display: block;
+  }
+  .hidden-sm {
+    display: none;
+  }
+  .first-content h3 {
+    font-size: 19px;
+    line-height: 0px;
+    font-weight: 400;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    padding: 0, 20px;
+  }
+  .email-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%;
+  }
+  .first-content input {
+    width: 80%;
+    height: 50px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+  }
+  .first-content button {
+    width: 40%;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    margin-top: 20px;
+    height: 45px;
+    font-size: 17px;
+  }
+  .part1 {
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem 1rem;
+    text-align: center;
+  }
+  .part1 .talk {
+    width: 90%;
+  }
+  .part1 .talk h1 {
+    font-size: 26px;
+  }
+  .part1 .talk p {
+    font-size: 18px;
+  }
+  .part1 .img {
+    width: 95%;
+  }
+  .part2 {
+    flex-direction: column-reverse;
+    justify-content: center;
+    padding: 3rem 1rem;
+    text-align: center;
+  }
+  .part2 .talk {
+    width: 90%;
+  }
+  .part2 .talk h1 {
+    font-size: 26px;
+  }
+  .part2 .talk p {
+    font-size: 18px;
+  }
+  .part2 .img {
+    width: 95%;
+  }
+
+  .list {
+    width: 100%;
+  }
+  .list h1 {
+    font-size: 1.7rem;
+    text-align: center;
+    padding: 2rem 0 0rem 0;
+  }
+  .tittle {
+    font-size: 1.2rem;
+  }
+
+  .banner3 .box {
+    margin: 0.4rem;
+  }
+
+  .banner3 .box .heading h3 {
+    font-size: 19px;
+    padding: 0 40px 0 40px;
+    text-align: center;
+  }
+  .banner3 .box .search {
+    flex-direction: column;
+  }
+  .banner3 .box .search input {
+    width: 70%;
+    font-size: 13px;
+    height: 50px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-radius: 3px;
+    margin: 0px;
+  }
+  .banner3 .box .search button {
+    width: 40%;
+    height: 45px;
+    margin-top: 15px;
+    border-radius: 3px;
+    font-size: 16px;
+  }
+  .foooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    padding: 4rem, 0;
+  }
+  .foooter .one {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: auto;
+    width: 50%;
+  }
+  .foooter .one li {
+    padding: 2px 0;
+  }
+  .foooter .one li a {
+    font-size: 12px;
+    color: rgb(65, 63, 63)155, 151, 151;
+    text-decoration: none;
+  }
+  .foooter .one li a:hover {
+    text-decoration: 1px solid underline;
+  }
+}
+@media screen and (max-width: 708px) {
+  .banner2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+      url();
+    background: black;
+  }
+  .started-cont {
+    width: 100%;
+  }
+  .sign-in-cont {
+    width: 90%;
+    margin-top: 0px;
+  }
+  .modal {
+    width: 100%;
+    background: black;
+  }
+  .footer {
+    margin-top: 2px;
+    border-top: 1px solid gray;
+    padding: 0px;
+  }
+  .firstfooter {
+    padding-left: 20px;
+  }
+}
+@media only screen and (min-width: 708px) and (max-width: 1000px) {
+  .banner {
+    height: 140vh;
+  }
+  .email-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%;
+  }
+  .first-content input {
+    width: 60%;
+    height: 50px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+  }
+  .first-content button {
+    width: 25%;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    margin-top: 20px;
+    height: 45px;
+    font-size: 17px;
+  }
+  .modal {
+    width: 50%;
+  }
+  .banner2 {
+    height: 150vh;
+  }
+  .footer {
+    margin-top: 50px;
+  }
+  .contact-handles {
+    margin-top: 50px;
+  }
+  .started-cont {
+    width: 60%;
+  }
+  .sign-in-cont {
+    width: 90%;
+    margin-top: 0px;
+  }
+  .part1 {
+    flex-direction: column;
+    justify-content: center;
+    padding: 5rem 1rem;
+    text-align: center;
+  }
+  .part1 .talk {
+    width: 90%;
+  }
+  .part1 .talk h1 {
+    font-size: 40px;
+  }
+  .part1 .talk p {
+    font-size: 22px;
+  }
+  .part1 .img {
+    width: 80%;
+  }
+  .part2 {
+    flex-direction: column-reverse;
+    justify-content: center;
+    padding: 5rem 1rem;
+    text-align: center;
+  }
+  .part2 .talk {
+    width: 90%;
+  }
+  .part2 .talk h1 {
+    font-size: 40px;
+  }
+  .part2 .talk p {
+    font-size: 22px;
+  }
+  .part2 .img {
+    width: 80%;
+  }
+
+  .list {
+    width: 80%;
+  }
+  .list h1 {
+    font-size: 2.6rem;
+    text-align: center;
+    padding: 0rem 0 0rem 0;
+  }
+  .tittle {
+    font-size: 1.6rem;
+  }
+  .banner3 .box {
+    margin: 1rem;
+  }
+
+  .banner3 .box .heading h3 {
+    font-size: 23px;
+    padding: 0 40px 0 40px;
+    text-align: center;
+  }
+  .banner3 .box .search {
+    flex-direction: column;
+  }
+  .banner3 .box .search input {
+    font-size: 13px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-radius: 3px;
+    margin: 0px;
+  }
+  .banner3 .box .search button {
+    width: 35%;
+    height: 45px;
+    margin-top: 15px;
+    border-radius: 3px;
+    font-size: 16px;
+  }
+
+  .foooter .one {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    width: 40%;
+  }
+  .foooter .one li {
+    padding: 6px 0;
+  }
+  .foooter .one li a {
+    font-size: 12px;
+    color: rgb(65, 63, 63)155, 151, 151);
+    text-decoration: none;
+  }
+  .foooter .one li a:hover {
+    text-decoration: 1px solid underline;
+  }
+}
+@media screen and (max-width: 634px) {
+  .navigation a {
+    width: 30%;
+    margin-right: 10px;
+    padding: 5px 5px;
+  }
+}
